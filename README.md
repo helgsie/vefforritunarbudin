@@ -1,18 +1,10 @@
-# Hópverkefni 2 í vefforritun 1
+## Verkefni í vefforritun 1
 
-Nafn: Helga Björg Helgadóttir
+Hægt er að sjá vefsíðuna á eftirfarandi hlekk: https://vef-vefforritunarbudin.netlify.app
 
-Netfang: hbh54@hi.is
+Til að keyra verkefnið: `npm run dev`
 
-Github aðgangur: helgsie
-    
-## Keyrsla á verkefni
-
-Hægt er að sjá vefsíðuna á eftirfarandi hlekk: https://vef-hopverkefni2.netlify.app
-
-Til að keyra verkefnið: npm run dev
-
-Til að linta verkefnið: npm run lint
+Til að linta verkefnið: `npm run lint`
 
 ### Uppsetning verkefnis
 

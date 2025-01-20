@@ -1,0 +1,47 @@
+// Grid stillingar
+$columns: 12;
+$gutter: 30px;
+$offset: 25px;
+
+// Lóðrétt bil mili stærri eininga
+$vertical-space: calc(#{$gutter});
+
+// Hámarksbreidd á efni
+$max-width: 1400px;
+$width-offset: calc(100% - (2 * #{$offset}));
+
+// Litir
+$color-primary: #222222;
+$color-primary-light: #d5d5d5;
+$color-primary-dark: #000000;
+$color-white: #ffffff;
+
+// Letur stillingar
+$font-base-size: 16px;
+$font-price-size: 24px;
+$font-category-size: 2.2vw;
+$line-height: 1.5;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+$font-family-base: 'Lato-regular', Helvetica, Arial, sans-serif;
+$font-family-heading: 'Lora', Georgia, serif;
+
+// Breakpoints
+$breakpoint-small: 576px;
+$breakpoint-medium: 768px;
+$breakpoint-large: 992px;
+
+// Bil
+$spacing: 1rem;
+$margin-xsmall: calc($spacing / 4);
+$margin-small: calc($spacing / 2);
+$margin-medium: $spacing;
+$margin-large: calc(2 * $spacing);
+$margin-xlarge: calc(3 * $spacing);
+$margin-huge: calc(5 * $spacing);
+$padding-category: 5rem;
+$padding-button: 0.5rem 2.5rem;
+
+// Border stillingar
+$border-small: 1px;
+$border-radius: 5px;

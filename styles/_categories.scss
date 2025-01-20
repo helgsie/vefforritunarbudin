@@ -1,0 +1,41 @@
+.categories {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: $vertical-space;
+
+    @media (min-width: $breakpoint-small) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: $breakpoint-medium) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media (min-width: $breakpoint-large) {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .category a {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        padding: $padding-category 0;
+        border: $border-small solid $color-primary;
+
+        p {
+            font-size: 4vw;
+            padding: 0 $margin-small;
+
+            @media (min-width: $breakpoint-medium) {
+                font-size: $font-category-size;
+            }
+        }
+    }
+}
+
+
+
+
+

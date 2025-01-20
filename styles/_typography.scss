@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(../fonts/Lora/Lora-VariableFont_wght.ttf) format('woff');
+}
+  
+@font-face {
+    font-family: 'Lato-regular';
+    font-style: normal;
+    font-display: swap;
+    src: url(../fonts/Lato/Lato-Regular.ttf) format('woff');
+}
+
+@font-face {
+    font-family: 'Lato-bold';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(../fonts/Lato/Lato-Bold.ttf) format('woff');
+}
+
+h1, h2, h3 {
+    font-family: $font-family-heading;
+}
+
+h3 {
+    font-size: $font-base-size;
+}
+
+* {
+    font-family: $font-family-base;
+}

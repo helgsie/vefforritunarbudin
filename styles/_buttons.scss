@@ -1,0 +1,41 @@
+.button {
+    padding: 0.5rem 2.5rem;
+    margin-bottom: 2rem;
+    background-color: $color-primary;
+    color: $color-white;
+    border: $border-small solid $color-primary;
+    border-radius: $border-radius;
+}
+
+.search-button {
+    padding: 0.3rem 0.5rem;
+    background-color: $color-primary;
+    color: $color-white;
+    border: $border-small solid $color-primary;
+    border-radius: $border-radius;
+}
+
+.pagination {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: $vertical-space;
+
+    .button-left {
+        justify-self: flex-end;
+        padding: 0.5rem 2.5rem;
+        background-color: $color-primary;
+        color: $color-white;
+        border: $border-small solid $color-primary;
+        border-radius: $border-radius;
+    }
+
+    .button-right {
+        justify-self: flex-start;
+        padding: 0.5rem 2.5rem;
+        background-color: $color-primary;
+        color: $color-white;
+        border: $border-small solid $color-primary;
+        border-radius: $border-radius;
+    }
+}

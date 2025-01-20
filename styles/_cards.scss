@@ -1,0 +1,36 @@
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: $vertical-space;
+    margin-bottom: $margin-large;
+
+    @media (min-width: $breakpoint-small) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: $breakpoint-medium) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .card {
+
+        img {
+            width: 100%;
+            object-fit: cover;
+            aspect-ratio: 1/1;
+        }
+    
+        .card-info {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            align-items: center;
+            padding: $margin-small 0;
+
+            .price {
+                text-align: right;
+                font-size: $font-price-size;
+                color: $color-primary;
+            }
+        }
+    }
+}

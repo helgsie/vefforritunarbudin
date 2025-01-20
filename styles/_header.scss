@@ -1,0 +1,55 @@
+.header {
+    background-color: $color-primary;
+    color: $color-white;
+
+    .header-content {
+        width: $width-offset;
+        max-width: $max-width;
+        margin: auto;
+        padding: $margin-large 0;
+        gap: $margin-medium;
+
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        text-align: center;
+
+        @media (min-width: $breakpoint-small) {
+            grid-template-columns: 7fr 5fr;
+            text-align: left;
+        }
+    }
+
+    .logo {
+        // Fela beint í efni hlekk
+        .sr-only:not(:focus):not(:active) {
+            clip: rect(0 0 0 0);
+            clip-path: inset(50%);
+            height: 1px;
+            overflow: hidden;
+            position: absolute;
+            white-space: nowrap;
+            width: 1px;
+        }
+    }
+
+    .nav {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: $margin-medium;
+
+        @media (min-width: $breakpoint-small) {
+            grid-template-columns: 4fr 1fr;
+        }
+
+        .nav-sign-in, .nav-cart, .nav-products {
+            display: flex;
+            justify-content: center;
+            gap: $margin-medium;
+
+            @media (min-width: $breakpoint-small) {
+                justify-content: right;
+            }
+        }
+    }
+}
